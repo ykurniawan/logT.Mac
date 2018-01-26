@@ -33,7 +33,7 @@ namespace logT.Mac
                                                               | NSApplicationPresentationOptions.AutoHideToolbar;
 
             var presOptionsDict = new NSDictionary(NSView.NSFullScreenModeApplicationPresentationOptions, presOptions);
-            this.View.EnterFullscreenModeWithOptions(NSScreen.MainScreen, presOptionsDict);
+            //this.View.EnterFullscreenModeWithOptions(NSScreen.MainScreen, presOptionsDict);
             this.View.WantsLayer = true;
             this.View.Window.IsOpaque = true;
             this.View.Window.BackgroundColor = MAIN_BG_COLOR;
